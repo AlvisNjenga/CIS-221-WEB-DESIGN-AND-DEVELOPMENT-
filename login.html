@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" type="text/css"href="style.css">
+</head>
+<body>
+    <h1>
+        Student Login Form
+    </h1>
+    <form action="login.php" method="post">
+        <div class="container">
+            <label for="Username">
+                Username:
+            </label>
+            <input type="text" placeholder="Enter Username" name="uname"required>
+            <br><br>
+            <label for="password">
+                Password:
+            </label>
+            <input type="text" placeholder="Enter Password" name="pwd"required>
+            <br><br>
+        </div>
+        &nbsp; &nbsp; &nbsp; &nbsp;
+        <button type="Submit">
+            Login
+        </button>
+        <button type="reset" class="cancelbtn">
+            Cancel
+        </button>
+        <br><br>
+        <input type="checkbox" checked="checked">Remember me
+        <a href="#">Forgot Password?</a>
+    </form>
+</body>
+</html>

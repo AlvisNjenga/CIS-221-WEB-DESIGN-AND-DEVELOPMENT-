@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>validate</title>
+    <link rel="stylesheet"type="text/css" href="style.css">
+</head>
+<body>
+    <form action="validate.php" method="post">
+        Name: <input type="text" name="Name" required>
+        <br><br>
+        E-mail: <input type="text" name="email" required>
+        <br><br>
+        Website: <input type="text" name="website">
+        <br><br>
+        Comment: <textarea name="comment" cols="40" rows="5"></textarea>
+        <br><br>
+        Gender: <input type="radio" name="gender" value="Female">Female
+        <input type="radio" name="gender" value="Male">Male
+        <br><br>
+       <button name="submit">
+        Submit
+       </button>
+       <button type="reset"name="reset">
+        Cancel
+       </button>
+    </form>
+</body>
+</html>
