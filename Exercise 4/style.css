@@ -1,0 +1,48 @@
+body{
+    background-color: skyblue;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+}
+button{
+    background-color: #4CAF50;
+    width: auto;
+    color: beige;
+    padding: 20px;
+    margin: 10px 10px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+form{
+    border: 3px solid grey;
+}input[type=text], input[type=number]{
+    width: 50%;
+    margin: 8px 0;
+    padding: 15px 20px;
+    display: inline-block;
+    border: 2px solid skyblue;
+    box-sizing: border-box;
+    position: relative;
+    align-self: center;
+button:hover{
+    opacity: .7;
+}
+.break-point::before{
+    content: "hiddentext";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+}
+.break-point::after{
+    content: "hiddentext";
+    font-size: 0;
+    display: block;
+    line-height: 0;
+}
+.container{
+    padding: 25px;
+    background-color: lightblue;
+}
+h1{
+    text-align: center;
+}
